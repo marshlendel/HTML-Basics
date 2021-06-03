@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="08-positions.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <p>this div has a fixed position</p>
+        </div>
+        <div class="positioning">
+            <h1>Positioning</h1>
+            <p>The position property specifies the type of positioning method used for an element. The four position values are:</p>
+            <ul>
+                <li><b>fixed:</b> this will pin something to a spot, and it will stay there as you scroll. (ex: nav bar) Fixed position takes elements out of the normal document flow</li>
+                <li><b>static:</b> this is the default setting, it is not affected by top, bottom, left, and right properties. It is always positioned according to the normal flow of the page.</li>
+                <li><b>relative:</b> does not take the element out of normal document flow. Still appears within its space/div/container, but allows it to be offset a bit from the top, bottom, right, left. top, right, bottom and left properties will move it away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+                <li><b>absolute:</b> takes element out of the normal document flow. If a parent element position is set to relative, and the child element is set to absolute, the child element's new (0,0) coordinate will be the upper left hand corner of the parent element instead of the whole page. </li>
+            </ul>
+            <p>The <b>z-index</b> property allows you to override the normal stacking order of the page. The default z-index is 0, and you can set that value to be positive or negative. An element with a grater z-index will stack in front of an element with a lower z-index. If two elements have the same z-index, or don't have one assigned, the element positioned last in the HTML will show on top. You must have a position asisgned in order to assign a z-index.</p>
+        </div>
+        <div class="lotsoftext">
+            <h2>Here is some text, so you can scroll and see the div with a fixed position example.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magnam facilis cumque omnis voluptatibus, officia labore. Excepturi ex aspernatur laboriosam quae autem esse nihil? Ullam laudantium amet culpa ex quisquam?. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis officia, sed non perferendis beatae consequatur nulla impedit, repudiandae placeat sunt odio minima nostrum enim eos perspiciatis quos, et maiores voluptas!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem placeat quasi soluta vitae doloribus fugit, nobis laborum accusantium harum atque officiis nisi obcaecati! At aut molestiae soluta nobis esse numquam!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora at consequuntur architecto explicabo, dolores officia similique odio sint unde velit sed ipsam suscipit neque natus tempore harum veniam quo optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis architecto veniam, omnis incidunt natus non blanditiis eum, ducimus nulla provident repellendus quasi voluptas quaerat fuga quam cumque voluptate numquam. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellat vel obcaecati nisi itaque, illo impedit culpa reprehenderit. Illum quisquam, quam sint esse laboriosam provident nobis excepturi odio cupiditate magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi maiores aut, culpa eveniet exercitationem accusamus sit est. Veritatis sunt porro officiis ipsum nam alias iusto, vero eaque natus tempora.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit porro aliquam error neque praesentium dolor quae accusamus ducimus, hic, dolores quas cumque. Debitis laudantium provident explicabo velit, dolores blanditiis quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam autem reprehenderit dolorum consequatur beatae quo nihil debitis quos? Asperiores soluta adipisci minima quo harum qui blanditiis laborum dolor dolorem minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, saepe? Illo quos at, voluptatum dignissimos aliquam totam itaque nulla molestias voluptatibus. Eum delectus earum libero eligendi odio architecto ab exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto pariatur cupiditate quod nam facilis dignissimos quia quaerat, tempore debitis corrupti inventore illo iure expedita, veniam maxime a sequi. Deserunt, quisquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero reiciendis quia in recusandae non blanditiis ab eum suscipit tenetur eos iste maxime hic illo, rem nam explicabo quis quam quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, suscipit fuga repellat officiis error dolorum esse voluptate repellendus alias eum sequi, deleniti placeat distinctio at quibusdam natus, dignissimos corrupti fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem hic recusandae beatae molestias officia? Recusandae distinctio labore placeat quod, quos ipsum. Deleniti nam architecto vitae necessitatibus sint voluptatibus ducimus explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laudantium expedita repellendus similique quas. Fugit omnis alias molestias quasi error repellat. Aliquid aperiam recusandae incidunt, deserunt cumque quia enim odit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque accusamus similique voluptates magnam deserunt libero iure nihil, atque ad earum quis unde beatae error neque ullam temporibus porro! Sed, labore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus neque iure doloremque facere necessitatibus culpa, deleniti voluptas doloribus aperiam maiores tenetur voluptatibus. Doloremque non molestias similique voluptatum perspiciatis repellat magni.</p>
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
